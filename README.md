@@ -23,7 +23,7 @@ Requirements
 ---
 For Void Linux:
 ```sh
-sudo xbps-install -S libX11-devel libXft-devel libXinerama-devel noto-fonts-ttf noto-fonts-ttf-extra font-hack-ttf
+sudo xbps-install -S base-devel libX11-devel libXft-devel libXinerama-devel noto-fonts-ttf noto-fonts-ttf-extra font-hack-ttf
 ```
 
 Installation
