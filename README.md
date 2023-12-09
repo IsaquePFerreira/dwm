@@ -2,6 +2,13 @@
 My customization of dwm with some patches and keys for my
 daily use
 
+Keybinds
+---
+- Modkey is SUPER
+- Launch terminal emulator - SUPER + RETURN
+- Launch dmenu - SUPER + d
+- Launch browser - SUPER + q
+
 Patches
 ---
 - Urgent Border
