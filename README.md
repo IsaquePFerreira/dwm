@@ -2,6 +2,16 @@
 My customization of dwm with some patches and keys for my
 daily use
 
+Patches
+---
+- Urgent Border
+- Autostart
+- Functional Gaps -- with pertag suport
+- Per Tag
+- SysTray
+
+The coloscheme inspired in [Multicolor theme by lcpz/awesome-copycats](https://github.com/lcpz/awesome-copycats)
+
 Requirements
 ---
 For Void Linux:
