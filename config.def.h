@@ -26,7 +26,6 @@ static const Rule rules[] = {
 	 *	WM_NAME(STRING) = title
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */
-	{ "gimp",     NULL,       NULL,       1,            0,           -1 },
 	{ "Firefox",  NULL,       NULL,       2,            0,           -1 },
 };
 
@@ -58,7 +57,6 @@ static const Layout layouts[] = {
 static const char *dmenucmd[] = { "dmenu_run", "-i", "-fn", dmenufont,"-sb","#2de72b", NULL };
 static const char *termcmd[]  = { "st", NULL };
 static const char *browcmd[]  = { "firefox", NULL };
-static const char *nemocmd[]  = { "nemo", NULL };
 static const char *keyscmd[]  = { "keepassxc", NULL };
 
 static const Key keys[] = {
@@ -66,7 +64,6 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_d,      spawn,          {.v = dmenucmd } },
 	{ MODKEY,                       XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_q,      spawn,          {.v = browcmd } },
-	{ MODKEY,                       XK_e,      spawn,          {.v = nemocmd } },
 	{ MODKEY,                       XK_w,      spawn,          {.v = keyscmd } },
     { MODKEY|ShiftMask,             XK_m,      spawn,          SHCMD("~/bin/volume-plus") },
 	{ MODKEY|ShiftMask,             XK_n,      spawn,          SHCMD("~/bin/volume-minus") },
