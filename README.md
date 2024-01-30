@@ -1,4 +1,4 @@
-# My fork and buil of dwm - dynamic window manager
+# My fork and build of dwm - dynamic window manager
 My customization of dwm with some patches and keys for my
 daily use
 
